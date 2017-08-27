@@ -9,7 +9,7 @@ describe('compute_median', function () {
 
   it('计算给定奇数个数字的集合的中位数', function () {
 
-    var result = compute_median(collection_a);
+    var result = compute_median(collection_a);  console.log(result+"+++++++++++++")
     expect(result).toEqual(1);
   });
 
