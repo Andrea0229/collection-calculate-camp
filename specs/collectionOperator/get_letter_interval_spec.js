@@ -24,4 +24,5 @@ describe('get_letter_interval', function () {
     var result = get_letter_interval(5, 5);
     expect(result).toEqual(['e']);
   });
+  
 });

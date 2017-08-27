@@ -8,7 +8,7 @@ describe('map to even', function() {
 
   it("将集合A中得元素映射成集合B中的元素", function() {
 
-    var result = map_to_even(collection_a);
+    var result = map_to_even(collection_a);  
     expect(result).toEqual(collection_b);
   });
 });
