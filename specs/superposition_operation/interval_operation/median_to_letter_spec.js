@@ -1,6 +1,6 @@
 'use strict';
 
-var median_to_letter = require("../../../practices/superposition_operation/interval_operation/average_uneven.js");
+var median_to_letter = require("../../../practices/superposition_operation/interval_operation/median_to_letter");
 
 describe('median_to_letter', function() {
 
@@ -13,6 +13,6 @@ describe('median_to_letter', function() {
 
     var result = median_to_letter(collection);
 
-    expect(result).toEqual('ak');
+    expect(result).toEqual('cg');
   })
 });
